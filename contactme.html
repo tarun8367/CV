@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact Details</title>
+  </head>
+  <body>
+    <h2>My contact details:</h2>
+    <h3>Address:</h3>
+    <p>1st.floo r, Beta-1 , Greater Noida</p>
+    <h3>Contact No.</h3>
+    <p>+91 63977 48384</p>
+    <h3>My Email:</h3>
+    <p>tarunkumar8367@gmail.com</p>
+    <hr />
+
+    <form
+      action="mailto:tarunkumar8367@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name" name="yourname">Your Name:</label><br />
+      <input type="text" /><br />
+      <label for="email" name="youremail">Email:</label><br />
+      <input type="email" placeholder="email@gmail.com" /><br />
+      <label for="checkbox">Do you want to contact Me</label><br />
+      <input type="checkbox" name="" id="" /><br />
+      <label for="textarea">Purpose to Contact:</label><br />
+      <textarea name="purpose" id="" cols="30" rows="10"></textarea><br />
+      <label for="date">Select the date to meet:</label><br />
+      <input type="date" name="date" id="" /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
